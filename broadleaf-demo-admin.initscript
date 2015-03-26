@@ -38,7 +38,7 @@ case "$1" in
 	# running under bash -c exec gives the right pid and allows output to be captured
         start-stop-daemon --start --pidfile "$PIDFILE" --chuid "$JETTY_USER" \
                 --chdir "$JETTY_HOME" --background --make-pidfile \
-                --startas /bin/bash -- -c "exec /usr/bin/ant jetty-demo > stdout.log 2>&1"
+                --startas /bin/bash -- -c "exec /usr/bin/ant jetty-demo-no-db > stdout.log 2>&1"
         ;;
 
   stop)

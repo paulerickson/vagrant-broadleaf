@@ -1,0 +1,6 @@
+Buildfile: /vagrant/eclipse-workspace/DemoSite/admin/build.xml
+
+BUILD FAILED
+Target "jetty-demo-no-db" does not exist in the project "admin". 
+
+Total time: 2 seconds

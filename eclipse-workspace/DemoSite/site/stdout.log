@@ -1,0 +1,836 @@
+Buildfile: /vagrant/eclipse-workspace/DemoSite/site/build.xml
+
+jetty-demo-no-db:
+[artifact:mvn] Listening for transport dt_socket at address: 8000
+[artifact:mvn] [INFO] Scanning for projects...
+[artifact:mvn] [INFO]                                                                         
+[artifact:mvn] [INFO] ------------------------------------------------------------------------
+[artifact:mvn] [INFO] Building site 1.0
+[artifact:mvn] [INFO] ------------------------------------------------------------------------
+[artifact:mvn] [INFO] 
+[artifact:mvn] [INFO] --- keytool-maven-plugin:1.5:clean (clean) @ site ---
+[artifact:mvn] [INFO] Keystore file '/vagrant/eclipse-workspace/DemoSite/site/target/mycompany/WEB-INF/blc-example.keystore' deleted successfully.
+[artifact:mvn] [INFO] 
+[artifact:mvn] [INFO] --- keytool-maven-plugin:1.5:generateKeyPair (generateKeyPair) @ site ---
+[artifact:mvn] [INFO] 
+[artifact:mvn] [INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ site ---
+[artifact:mvn] [INFO] Using 'UTF-8' encoding to copy filtered resources.
+[artifact:mvn] [INFO] Copying 19 resources
+[artifact:mvn] [INFO] 
+[artifact:mvn] [INFO] --- jrebel-maven-plugin:1.1.3:generate (generate-rebel-xml) @ site ---
+[artifact:mvn] [INFO] 
+[artifact:mvn] [INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ site ---
+[artifact:mvn] [INFO] Nothing to compile - all classes are up to date
+[artifact:mvn] [INFO] 
+[artifact:mvn] [INFO] --- maven-war-plugin:2.1.1:exploded (default-cli) @ site ---
+[artifact:mvn] [INFO] Exploding webapp
+[artifact:mvn] [INFO] Assembling webapp [site] in [/vagrant/eclipse-workspace/DemoSite/site/target/mycompany]
+[artifact:mvn] [INFO] Processing war project
+[artifact:mvn] [INFO] Copying webapp resources [/vagrant/eclipse-workspace/DemoSite/site/src/main/webapp]
+[artifact:mvn] [INFO] Webapp assembled in [7905 msecs]
+[artifact:mvn] [INFO] 
+[artifact:mvn] [INFO] >>> jetty-maven-plugin:8.1.5.v20120716:run (default-cli) @ site >>>
+[artifact:mvn] [INFO] 
+[artifact:mvn] [INFO] --- keytool-maven-plugin:1.5:clean (clean) @ site ---
+[artifact:mvn] [INFO] Keystore file '/vagrant/eclipse-workspace/DemoSite/site/target/mycompany/WEB-INF/blc-example.keystore' deleted successfully.
+[artifact:mvn] [INFO] 
+[artifact:mvn] [INFO] --- keytool-maven-plugin:1.5:generateKeyPair (generateKeyPair) @ site ---
+[artifact:mvn] [INFO] 
+[artifact:mvn] [INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ site ---
+[artifact:mvn] [INFO] Using 'UTF-8' encoding to copy filtered resources.
+[artifact:mvn] [INFO] Copying 19 resources
+[artifact:mvn] [INFO] 
+[artifact:mvn] [INFO] --- jrebel-maven-plugin:1.1.3:generate (generate-rebel-xml) @ site ---
+[artifact:mvn] [INFO] 
+[artifact:mvn] [INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ site ---
+[artifact:mvn] [INFO] Nothing to compile - all classes are up to date
+[artifact:mvn] [INFO] 
+[artifact:mvn] [INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ site ---
+[artifact:mvn] [INFO] Using 'UTF-8' encoding to copy filtered resources.
+[artifact:mvn] [INFO] skip non existing resourceDirectory /vagrant/eclipse-workspace/DemoSite/site/src/test/resources
+[artifact:mvn] [INFO] 
+[artifact:mvn] [INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ site ---
+[artifact:mvn] [INFO] No sources to compile
+[artifact:mvn] [INFO] 
+[artifact:mvn] [INFO] <<< jetty-maven-plugin:8.1.5.v20120716:run (default-cli) @ site <<<
+[artifact:mvn] [INFO] 
+[artifact:mvn] [INFO] --- jetty-maven-plugin:8.1.5.v20120716:run (default-cli) @ site ---
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/8.1.5.v20120716/jetty-util-8.1.5.v20120716.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/8.1.5.v20120716/jetty-util-8.1.5.v20120716.pom (4 KB at 0.6 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/8.1.5.v20120716/jetty-project-8.1.5.v20120716.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/8.1.5.v20120716/jetty-project-8.1.5.v20120716.pom (26 KB at 175.0 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/8.1.5.v20120716/jetty-webapp-8.1.5.v20120716.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/8.1.5.v20120716/jetty-webapp-8.1.5.v20120716.pom (4 KB at 30.9 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/8.1.5.v20120716/jetty-xml-8.1.5.v20120716.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/8.1.5.v20120716/jetty-xml-8.1.5.v20120716.pom (2 KB at 14.2 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/8.1.5.v20120716/jetty-servlet-8.1.5.v20120716.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/8.1.5.v20120716/jetty-servlet-8.1.5.v20120716.pom (3 KB at 27.0 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/8.1.5.v20120716/jetty-security-8.1.5.v20120716.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/8.1.5.v20120716/jetty-security-8.1.5.v20120716.pom (3 KB at 23.9 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/8.1.5.v20120716/jetty-server-8.1.5.v20120716.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/8.1.5.v20120716/jetty-server-8.1.5.v20120716.pom (4 KB at 34.4 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom (732 B at 7.4 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.pom (3 KB at 21.0 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.pom (17 KB at 145.1 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.5.v20120716/jetty-continuation-8.1.5.v20120716.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.5.v20120716/jetty-continuation-8.1.5.v20120716.pom (3 KB at 23.5 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/8.1.5.v20120716/jetty-http-8.1.5.v20120716.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/8.1.5.v20120716/jetty-http-8.1.5.v20120716.pom (3 KB at 26.4 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/8.1.5.v20120716/jetty-io-8.1.5.v20120716.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/8.1.5.v20120716/jetty-io-8.1.5.v20120716.pom (3 KB at 17.6 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.0.3/maven-plugin-api-3.0.3.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.0.3/maven-plugin-api-3.0.3.pom (3 KB at 22.4 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven/3.0.3/maven-3.0.3.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven/3.0.3/maven-3.0.3.pom (23 KB at 148.2 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/15/maven-parent-15.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/15/maven-parent-15.pom (24 KB at 190.6 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.0.3/maven-model-3.0.3.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.0.3/maven-model-3.0.3.pom (4 KB at 40.5 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.6/plexus-utils-2.0.6.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.6/plexus-utils-2.0.6.pom (3 KB at 25.0 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.0.3/maven-artifact-3.0.3.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.0.3/maven-artifact-3.0.3.pom (2 KB at 19.2 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-plexus/2.1.1/sisu-inject-plexus-2.1.1.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-plexus/2.1.1/sisu-inject-plexus-2.1.1.pom (3 KB at 29.4 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-plexus/2.1.1/guice-plexus-2.1.1.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-plexus/2.1.1/guice-plexus-2.1.1.pom (4 KB at 34.4 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-bean/2.1.1/guice-bean-2.1.1.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-bean/2.1.1/guice-bean-2.1.1.pom (3 KB at 28.4 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject/2.1.1/sisu-inject-2.1.1.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject/2.1.1/sisu-inject-2.1.1.pom (2 KB at 18.4 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-parent/2.1.1/sisu-parent-2.1.1.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-parent/2.1.1/sisu-parent-2.1.1.pom (10 KB at 82.3 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/7/forge-parent-7.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/7/forge-parent-7.pom (13 KB at 113.7 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom (815 B at 8.6 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom (5 KB at 41.4 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4.pom (4 KB at 35.1 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/2.1.1/sisu-inject-bean-2.1.1.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/2.1.1/sisu-inject-bean-2.1.1.pom (3 KB at 31.5 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/2.9.4/sisu-guice-2.9.4.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/2.9.4/sisu-guice-2.9.4.pom (8 KB at 81.5 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-parent/2.9.4/guice-parent-2.9.4.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-parent/2.9.4/guice-parent-2.9.4.pom (13 KB at 119.4 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/6/forge-parent-6.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/6/forge-parent-6.pom (11 KB at 98.1 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.0.3/maven-core-3.0.3.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.0.3/maven-core-3.0.3.pom (7 KB at 60.8 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.0.3/maven-settings-3.0.3.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.0.3/maven-settings-3.0.3.pom (2 KB at 19.2 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.0.3/maven-settings-builder-3.0.3.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.0.3/maven-settings-builder-3.0.3.pom (3 KB at 21.1 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.pom (910 B at 9.2 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.pom (3 KB at 28.6 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/12/spice-parent-12.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/12/spice-parent-12.pom (7 KB at 63.8 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.5/plexus-utils-1.5.5.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.5/plexus-utils-1.5.5.pom (6 KB at 45.7 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.pom (3 KB at 20.4 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.0.3/maven-repository-metadata-3.0.3.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.0.3/maven-repository-metadata-3.0.3.pom (2 KB at 19.0 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.0.3/maven-model-builder-3.0.3.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.0.3/maven-model-builder-3.0.3.pom (3 KB at 23.6 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.0.3/maven-aether-provider-3.0.3.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.0.3/maven-aether-provider-3.0.3.pom (3 KB at 26.8 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/sonatype/aether/aether-api/1.11/aether-api-1.11.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/aether/aether-api/1.11/aether-api-1.11.pom (2 KB at 16.0 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/sonatype/aether/aether-parent/1.11/aether-parent-1.11.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/aether/aether-parent/1.11/aether-parent-1.11.pom (12 KB at 104.9 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/sonatype/aether/aether-spi/1.11/aether-spi-1.11.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/aether/aether-spi/1.11/aether-spi-1.11.pom (2 KB at 15.4 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/sonatype/aether/aether-util/1.11/aether-util-1.11.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/aether/aether-util/1.11/aether-util-1.11.pom (2 KB at 18.2 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/sonatype/aether/aether-impl/1.11/aether-impl-1.11.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/aether/aether-impl/1.11/aether-impl-1.11.pom (4 KB at 30.3 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-api/2.9/maven-plugin-tools-api-2.9.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-api/2.9/maven-plugin-tools-api-2.9.pom (5 KB at 42.6 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/2.9/maven-plugin-tools-2.9.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/2.9/maven-plugin-tools-2.9.pom (10 KB at 92.2 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/net/sf/jtidy/jtidy/r938/jtidy-r938.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/net/sf/jtidy/jtidy/r938/jtidy-r938.pom (10 KB at 95.8 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-plus/8.1.5.v20120716/jetty-plus-8.1.5.v20120716.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-plus/8.1.5.v20120716/jetty-plus-8.1.5.v20120716.pom (4 KB at 32.3 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.transaction/1.1.1.v201105210645/javax.transaction-1.1.1.v201105210645.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.transaction/1.1.1.v201105210645/javax.transaction-1.1.1.v201105210645.pom (740 B at 7.2 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jndi/8.1.5.v20120716/jetty-jndi-8.1.5.v20120716.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jndi/8.1.5.v20120716/jetty-jndi-8.1.5.v20120716.pom (3 KB at 25.3 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.mail.glassfish/1.4.1.v201005082020/javax.mail.glassfish-1.4.1.v201005082020.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.mail.glassfish/1.4.1.v201005082020/javax.mail.glassfish-1.4.1.v201005082020.pom (954 B at 9.7 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.activation/1.1.0.v201105071233/javax.activation-1.1.0.v201105071233.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.activation/1.1.0.v201105071233/javax.activation-1.1.0.v201105071233.pom (734 B at 7.6 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jmx/8.1.5.v20120716/jetty-jmx-8.1.5.v20120716.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jmx/8.1.5.v20120716/jetty-jmx-8.1.5.v20120716.pom (3 KB at 25.7 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-annotations/8.1.5.v20120716/jetty-annotations-8.1.5.v20120716.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-annotations/8.1.5.v20120716/jetty-annotations-8.1.5.v20120716.pom (4 KB at 32.6 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.annotation/1.1.0.v201108011116/javax.annotation-1.1.0.v201108011116.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.annotation/1.1.0.v201108011116/javax.annotation-1.1.0.v201108011116.pom (734 B at 7.2 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.objectweb.asm/3.1.0.v200803061910/org.objectweb.asm-3.1.0.v200803061910.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.objectweb.asm/3.1.0.v200803061910/org.objectweb.asm-3.1.0.v200803061910.pom (728 B at 7.0 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.5.v20120716/jetty-websocket-8.1.5.v20120716.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.5.v20120716/jetty-websocket-8.1.5.v20120716.pom (4 KB at 39.2 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jsp/8.1.5.v20120716/jetty-jsp-8.1.5.v20120716.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jsp/8.1.5.v20120716/jetty-jsp-8.1.5.v20120716.pom (2 KB at 20.9 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp/2.2.0.v201112011158/javax.servlet.jsp-2.2.0.v201112011158.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp/2.2.0.v201112011158/javax.servlet.jsp-2.2.0.v201112011158.pom (941 B at 9.4 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.apache.jasper.glassfish/2.2.2.v201112011158/org.apache.jasper.glassfish-2.2.2.v201112011158.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.apache.jasper.glassfish/2.2.2.v201112011158/org.apache.jasper.glassfish-2.2.2.v201112011158.pom (2 KB at 11.0 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp.jstl/1.2.0.v201105211821/javax.servlet.jsp.jstl-1.2.0.v201105211821.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp.jstl/1.2.0.v201105211821/javax.servlet.jsp.jstl-1.2.0.v201105211821.pom (2 KB at 10.6 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp/2.1.0.v201105211820/javax.servlet.jsp-2.1.0.v201105211820.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp/2.1.0.v201105211820/javax.servlet.jsp-2.1.0.v201105211820.pom (941 B at 9.7 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.apache.taglibs.standard.glassfish/1.2.0.v201112081803/org.apache.taglibs.standard.glassfish-1.2.0.v201112081803.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.apache.taglibs.standard.glassfish/1.2.0.v201112081803/org.apache.taglibs.standard.glassfish-1.2.0.v201112081803.pom (980 B at 10.4 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.el/2.2.0.v201108011116/javax.el-2.2.0.v201108011116.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.el/2.2.0.v201108011116/javax.el-2.2.0.v201108011116.pom (724 B at 6.9 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/com.sun.el/2.2.0.v201108011116/com.sun.el-2.2.0.v201108011116.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/com.sun.el/2.2.0.v201108011116/com.sun.el-2.2.0.v201108011116.pom (720 B at 7.0 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.eclipse.jdt.core/3.7.1/org.eclipse.jdt.core-3.7.1.pom
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.eclipse.jdt.core/3.7.1/org.eclipse.jdt.core-3.7.1.pom (726 B at 7.2 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/8.1.5.v20120716/jetty-util-8.1.5.v20120716.jar
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/8.1.5.v20120716/jetty-webapp-8.1.5.v20120716.jar
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/8.1.5.v20120716/jetty-xml-8.1.5.v20120716.jar
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/8.1.5.v20120716/jetty-servlet-8.1.5.v20120716.jar
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/8.1.5.v20120716/jetty-security-8.1.5.v20120716.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/8.1.5.v20120716/jetty-xml-8.1.5.v20120716.jar (38 KB at 115.4 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/8.1.5.v20120716/jetty-server-8.1.5.v20120716.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/8.1.5.v20120716/jetty-security-8.1.5.v20120716.jar (85 KB at 229.5 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.5.v20120716/jetty-continuation-8.1.5.v20120716.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/8.1.5.v20120716/jetty-webapp-8.1.5.v20120716.jar (105 KB at 257.1 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/2.1.1/sisu-inject-bean-2.1.1.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/8.1.5.v20120716/jetty-servlet-8.1.5.v20120716.jar (95 KB at 231.8 KB/sec)
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/8.1.5.v20120716/jetty-util-8.1.5.v20120716.jar (265 KB at 644.1 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/2.9.4/sisu-guice-2.9.4-no_aop.jar
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.6/plexus-utils-2.0.6.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.5.v20120716/jetty-continuation-8.1.5.v20120716.jar (21 KB at 139.7 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/sonatype/aether/aether-util/1.11/aether-util-1.11.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/aether/aether-util/1.11/aether-util-1.11.jar (118 KB at 254.4 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/2.9.4/sisu-guice-2.9.4-no_aop.jar (473 KB at 818.5 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/2.1.1/sisu-inject-bean-2.1.1.jar (225 KB at 357.4 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.6/plexus-utils-2.0.6.jar (219 KB at 349.7 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar (5 KB at 32.9 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-api/2.9/maven-plugin-tools-api-2.9.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar (28 KB at 234.3 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/net/sf/jtidy/jtidy/r938/jtidy-r938.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar (60 KB at 348.8 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-plus/8.1.5.v20120716/jetty-plus-8.1.5.v20120716.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar (14 KB at 105.4 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.transaction/1.1.1.v201105210645/javax.transaction-1.1.1.v201105210645.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-api/2.9/maven-plugin-tools-api-2.9.jar (56 KB at 423.7 KB/sec)
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/8.1.5.v20120716/jetty-server-8.1.5.v20120716.jar (326 KB at 357.0 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jndi/8.1.5.v20120716/jetty-jndi-8.1.5.v20120716.jar
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.mail.glassfish/1.4.1.v201005082020/javax.mail.glassfish-1.4.1.v201005082020.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.transaction/1.1.1.v201105210645/javax.transaction-1.1.1.v201105210645.jar (29 KB at 203.0 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.activation/1.1.0.v201105071233/javax.activation-1.1.0.v201105071233.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-plus/8.1.5.v20120716/jetty-plus-8.1.5.v20120716.jar (83 KB at 316.6 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jmx/8.1.5.v20120716/jetty-jmx-8.1.5.v20120716.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jndi/8.1.5.v20120716/jetty-jndi-8.1.5.v20120716.jar (39 KB at 148.2 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-annotations/8.1.5.v20120716/jetty-annotations-8.1.5.v20120716.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.activation/1.1.0.v201105071233/javax.activation-1.1.0.v201105071233.jar (54 KB at 177.8 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.annotation/1.1.0.v201108011116/javax.annotation-1.1.0.v201108011116.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.mail.glassfish/1.4.1.v201005082020/javax.mail.glassfish-1.4.1.v201005082020.jar (480 KB at 1324.1 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.objectweb.asm/3.1.0.v200803061910/org.objectweb.asm-3.1.0.v200803061910.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jmx/8.1.5.v20120716/jetty-jmx-8.1.5.v20120716.jar (24 KB at 115.6 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.5.v20120716/jetty-websocket-8.1.5.v20120716.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/net/sf/jtidy/jtidy/r938/jtidy-r938.jar (245 KB at 503.2 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/8.1.5.v20120716/jetty-io-8.1.5.v20120716.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.annotation/1.1.0.v201108011116/javax.annotation-1.1.0.v201108011116.jar (26 KB at 100.1 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/8.1.5.v20120716/jetty-http-8.1.5.v20120716.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-annotations/8.1.5.v20120716/jetty-annotations-8.1.5.v20120716.jar (74 KB at 205.3 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jsp/8.1.5.v20120716/jetty-jsp-8.1.5.v20120716.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/8.1.5.v20120716/jetty-io-8.1.5.v20120716.jar (101 KB at 345.1 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp/2.2.0.v201112011158/javax.servlet.jsp-2.2.0.v201112011158.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jsp/8.1.5.v20120716/jetty-jsp-8.1.5.v20120716.jar (3 KB at 20.2 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.5.v20120716/jetty-websocket-8.1.5.v20120716.jar (123 KB at 316.3 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.apache.jasper.glassfish/2.2.2.v201112011158/org.apache.jasper.glassfish-2.2.2.v201112011158.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/8.1.5.v20120716/jetty-http-8.1.5.v20120716.jar (92 KB at 583.6 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp.jstl/1.2.0.v201105211821/javax.servlet.jsp.jstl-1.2.0.v201105211821.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.objectweb.asm/3.1.0.v200803061910/org.objectweb.asm-3.1.0.v200803061910.jar (217 KB at 454.2 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.apache.taglibs.standard.glassfish/1.2.0.v201112081803/org.apache.taglibs.standard.glassfish-1.2.0.v201112081803.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp/2.2.0.v201112011158/javax.servlet.jsp-2.2.0.v201112011158.jar (104 KB at 486.1 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.el/2.2.0.v201108011116/javax.el-2.2.0.v201108011116.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp.jstl/1.2.0.v201105211821/javax.servlet.jsp.jstl-1.2.0.v201105211821.jar (51 KB at 246.6 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/com.sun.el/2.2.0.v201108011116/com.sun.el-2.2.0.v201108011116.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.apache.taglibs.standard.glassfish/1.2.0.v201112081803/org.apache.taglibs.standard.glassfish-1.2.0.v201112081803.jar (420 KB at 974.9 KB/sec)
+[artifact:mvn] Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.eclipse.jdt.core/3.7.1/org.eclipse.jdt.core-3.7.1.jar
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.el/2.2.0.v201108011116/javax.el-2.2.0.v201108011116.jar (50 KB at 139.8 KB/sec)
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/com.sun.el/2.2.0.v201108011116/com.sun.el-2.2.0.v201108011116.jar (127 KB at 239.8 KB/sec)
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar (196 KB at 226.0 KB/sec)
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.apache.jasper.glassfish/2.2.2.v201112011158/org.apache.jasper.glassfish-2.2.2.v201112011158.jar (579 KB at 400.0 KB/sec)
+[artifact:mvn] Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/org.eclipse.jdt.core/3.7.1/org.eclipse.jdt.core-3.7.1.jar (1708 KB at 1803.4 KB/sec)
+[artifact:mvn] [INFO] Configuring Jetty for project: site
+[artifact:mvn] [INFO] Webapp source directory = /vagrant/eclipse-workspace/DemoSite/site/target/mycompany
+[artifact:mvn] [INFO] Reload Mechanic: automatic
+[artifact:mvn] [INFO] Classes = /vagrant/eclipse-workspace/DemoSite/site/target/mycompany/WEB-INF/classes
+[artifact:mvn] 2015-03-26 19:11:30.399:INFO:oejs.Server:jetty-8.1.5.v20120716
+[artifact:mvn] [INFO] Configuring Jetty from xml configuration file = /vagrant/eclipse-workspace/DemoSite/site/jetty-server.xml
+[artifact:mvn] [INFO] Context path = /
+[artifact:mvn] [INFO] Tmp directory = /vagrant/eclipse-workspace/DemoSite/site/target/tmp
+[artifact:mvn] [INFO] Web defaults = org/eclipse/jetty/webapp/webdefault.xml
+[artifact:mvn] [INFO] Web overrides =  none
+[artifact:mvn] [INFO] web.xml file = file:/vagrant/eclipse-workspace/DemoSite/site/target/mycompany/WEB-INF/web.xml
+[artifact:mvn] [INFO] Webapp directory = /vagrant/eclipse-workspace/DemoSite/site/target/mycompany
+[artifact:mvn] 2015-03-26 19:11:52.190:INFO:oejpw.PlusConfiguration:No Transaction manager found - if your webapp requires one, please configure one.
+[artifact:mvn] 2015-03-26 19:14:25.764:INFO:/:No Spring WebApplicationInitializer types detected on classpath
+[artifact:mvn] 2015-03-26 19:14:28.961:INFO:oejsh.ContextHandler:started o.m.j.p.JettyWebAppContext{/,file:/vagrant/eclipse-workspace/DemoSite/site/target/mycompany/},file:/vagrant/eclipse-workspace/DemoSite/site/target/mycompany/
+[artifact:mvn] 2015-03-26 19:14:28.962:INFO:oejsh.ContextHandler:started o.m.j.p.JettyWebAppContext{/,file:/vagrant/eclipse-workspace/DemoSite/site/target/mycompany/},file:/vagrant/eclipse-workspace/DemoSite/site/target/mycompany/
+[artifact:mvn] 2015-03-26 19:14:28.962:INFO:oejsh.ContextHandler:started o.m.j.p.JettyWebAppContext{/,file:/vagrant/eclipse-workspace/DemoSite/site/target/mycompany/},file:/vagrant/eclipse-workspace/DemoSite/site/target/mycompany/
+[artifact:mvn] 2015-03-26 19:14:28.972:INFO:/:Set web app root system property: 'site.root' = [/vagrant/eclipse-workspace/DemoSite/site/target/mycompany]
+[artifact:mvn] SLF4J: Class path contains multiple SLF4J bindings.
+[artifact:mvn] SLF4J: Found binding in [jar:file:/home/vagrant/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[artifact:mvn] SLF4J: Found binding in [jar:file:/vagrant/eclipse-workspace/DemoSite/site/target/mycompany/WEB-INF/lib/slf4j-log4j12-1.6.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[artifact:mvn] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[artifact:mvn] SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+[artifact:mvn] 2015-03-26 19:14:29.064:INFO:/:Initializing log4j from [/vagrant/eclipse-workspace/DemoSite/site/target/mycompany/WEB-INF/log4j.xml]
+[artifact:mvn] 2015-03-26 19:14:29.471:INFO:oejsh.ContextHandler:started o.m.j.p.JettyWebAppContext{/,file:/vagrant/eclipse-workspace/DemoSite/site/target/mycompany/},file:/vagrant/eclipse-workspace/DemoSite/site/target/mycompany/
+[artifact:mvn] 2015-03-26 19:14:29.472:INFO:/:Initializing Spring root WebApplicationContext
+[artifact:mvn] [SUPPORT] 19:15:14 DirectCopyClassTransformer - Basic Inventory Management - START - Transform - Copying into [org.broadleafcommerce.core.catalog.domain.SkuImpl] from [org.broadleafcommerce.core.catalog.domain.QuantityAvailableSkuTemplate]
+[artifact:mvn] [SUPPORT] 19:15:14 DirectCopyClassTransformer - Basic Inventory Management - END - Transform - Copying into [org.broadleafcommerce.core.catalog.domain.SkuImpl] from [org.broadleafcommerce.core.catalog.domain.QuantityAvailableSkuTemplate]
+[artifact:mvn] [ WARN] 19:15:23 AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [blSandBoxElements]; using defaults.
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ADDITIONAL_OFFER_INFO drop foreign key FK3BFDBD63B5D9C34D
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ADDITIONAL_OFFER_INFO' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ADDITIONAL_OFFER_INFO drop foreign key FK3BFDBD63D5F3FAF4
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ADDITIONAL_OFFER_INFO' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ADDITIONAL_OFFER_INFO drop foreign key FK3BFDBD631891FF79
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ADDITIONAL_OFFER_INFO' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ADDRESS drop foreign key FK299F86CEA46E16CF
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ADDRESS' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ADDRESS drop foreign key FK299F86CEF1A6533F
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ADDRESS' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ADDRESS drop foreign key FK299F86CEBF4449BA
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ADDRESS' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ADDRESS drop foreign key FK299F86CEE12DC0C8
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ADDRESS' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ADDRESS drop foreign key FK299F86CE337C4D50
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ADDRESS' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ADMIN_PERMISSION_ENTITY drop foreign key FK23C09E3DE88B7D38
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ADMIN_PERMISSION_ENTITY' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ADMIN_PERMISSION_XREF drop foreign key FKBCAD1F5E88B7D38
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ADMIN_PERMISSION_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ADMIN_PERMISSION_XREF drop foreign key FKBCAD1F575A3C445
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ADMIN_PERMISSION_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ADMIN_ROLE_PERMISSION_XREF drop foreign key FK4A819D98E88B7D38
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ADMIN_ROLE_PERMISSION_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ADMIN_ROLE_PERMISSION_XREF drop foreign key FK4A819D985F43AAD8
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ADMIN_ROLE_PERMISSION_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ADMIN_SECTION drop foreign key FK7EA7D92FB1A18498
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ADMIN_SECTION' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ADMIN_SEC_PERM_XREF drop foreign key FK5E832966E88B7D38
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ADMIN_SEC_PERM_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ADMIN_SEC_PERM_XREF drop foreign key FK5E8329663AF7F0FC
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ADMIN_SEC_PERM_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ADMIN_USER_ADDTL_FIELDS drop foreign key FK73274CDD46EBC38
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ADMIN_USER_ADDTL_FIELDS' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ADMIN_USER_PERMISSION_XREF drop foreign key FKF0B3BEEDE88B7D38
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ADMIN_USER_PERMISSION_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ADMIN_USER_PERMISSION_XREF drop foreign key FKF0B3BEED46EBC38
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ADMIN_USER_PERMISSION_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ADMIN_USER_ROLE_XREF drop foreign key FKFFD33A265F43AAD8
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ADMIN_USER_ROLE_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ADMIN_USER_ROLE_XREF drop foreign key FKFFD33A2646EBC38
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ADMIN_USER_ROLE_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ADMIN_USER_SANDBOX drop foreign key FKD0A97E09579FE59D
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ADMIN_USER_SANDBOX' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ADMIN_USER_SANDBOX drop foreign key FKD0A97E0946EBC38
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ADMIN_USER_SANDBOX' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ASSET_DESC_MAP drop foreign key FKE886BAE3E2BA0C9D
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ASSET_DESC_MAP' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ASSET_DESC_MAP drop foreign key FKE886BAE367F70B63
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ASSET_DESC_MAP' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_BUNDLE_ORDER_ITEM drop foreign key FK489703DBCCF29B96
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_BUNDLE_ORDER_ITEM' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_BUNDLE_ORDER_ITEM drop foreign key FK489703DBB78C9977
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_BUNDLE_ORDER_ITEM' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_BUNDLE_ORDER_ITEM drop foreign key FK489703DB9AF166DF
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_BUNDLE_ORDER_ITEM' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_BUND_ITEM_FEE_PRICE drop foreign key FK14267A943FC68307
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_BUND_ITEM_FEE_PRICE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CANDIDATE_FG_OFFER drop foreign key FKCE785605028DC55
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CANDIDATE_FG_OFFER' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CANDIDATE_FG_OFFER drop foreign key FKCE78560D5F3FAF4
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CANDIDATE_FG_OFFER' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CANDIDATE_ITEM_OFFER drop foreign key FK9EEE9B2D5F3FAF4
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CANDIDATE_ITEM_OFFER' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CANDIDATE_ITEM_OFFER drop foreign key FK9EEE9B29AF166DF
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CANDIDATE_ITEM_OFFER' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CANDIDATE_ORDER_OFFER drop foreign key FK61852289D5F3FAF4
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CANDIDATE_ORDER_OFFER' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CANDIDATE_ORDER_OFFER drop foreign key FK6185228989FE8A02
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CANDIDATE_ORDER_OFFER' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CATEGORY drop foreign key FK55F82D44B177E6
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CATEGORY' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CATEGORY_ATTRIBUTE drop foreign key FK4E441D4115D1A13D
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CATEGORY_ATTRIBUTE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CATEGORY_IMAGE drop foreign key FK27CF3E8015D1A13D
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CATEGORY_IMAGE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CATEGORY_MEDIA_MAP drop foreign key FKCD24B1066E4720E0
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CATEGORY_MEDIA_MAP' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CATEGORY_MEDIA_MAP drop foreign key FKCD24B106D786CEA2
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CATEGORY_MEDIA_MAP' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CATEGORY_PRODUCT_XREF drop foreign key FK635EB1A615D1A13D
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CATEGORY_PRODUCT_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CATEGORY_PRODUCT_XREF drop foreign key FK635EB1A65F11A0B7
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CATEGORY_PRODUCT_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CATEGORY_XREF drop foreign key FKE889733615D1A13D
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CATEGORY_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CATEGORY_XREF drop foreign key FKE8897336D6D45DBE
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CATEGORY_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CAT_SEARCH_FACET_EXCL_XREF drop foreign key FK8361EF4E15D1A13D
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CAT_SEARCH_FACET_EXCL_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CAT_SEARCH_FACET_EXCL_XREF drop foreign key FK8361EF4EB96B1C93
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CAT_SEARCH_FACET_EXCL_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CAT_SEARCH_FACET_XREF drop foreign key FK32210EEB15D1A13D
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CAT_SEARCH_FACET_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CAT_SEARCH_FACET_XREF drop foreign key FK32210EEBB96B1C93
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CAT_SEARCH_FACET_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CAT_SITE_MAP_GEN_CFG drop foreign key FK1BA4E695C5F3D60
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CAT_SITE_MAP_GEN_CFG' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CAT_SITE_MAP_GEN_CFG drop foreign key FK1BA4E69BCAB9F56
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CAT_SITE_MAP_GEN_CFG' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CUSTOMER drop foreign key FK7716F0241422B204
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CUSTOMER' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CUSTOMER drop foreign key FK7716F024A1E1C128
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CUSTOMER' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CUSTOMER_ADDRESS drop foreign key FK75B95AB9C13085DD
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CUSTOMER_ADDRESS' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CUSTOMER_ADDRESS drop foreign key FK75B95AB97470F437
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CUSTOMER_ADDRESS' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CUSTOMER_ATTRIBUTE drop foreign key FKB974C8217470F437
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CUSTOMER_ATTRIBUTE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CUSTOMER_OFFER_XREF drop foreign key FK685E80397470F437
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CUSTOMER_OFFER_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CUSTOMER_OFFER_XREF drop foreign key FK685E8039D5F3FAF4
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CUSTOMER_OFFER_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CUSTOMER_PAYMENT drop foreign key FK8B3DF0CBC13085DD
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CUSTOMER_PAYMENT' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CUSTOMER_PAYMENT drop foreign key FK8B3DF0CB7470F437
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CUSTOMER_PAYMENT' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CUSTOMER_PAYMENT_FIELDS drop foreign key FK5CCB14ADCA0B98E0
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CUSTOMER_PAYMENT_FIELDS' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CUSTOMER_PHONE drop foreign key FK3D28ED737470F437
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CUSTOMER_PHONE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CUSTOMER_PHONE drop foreign key FK3D28ED73D894CB5D
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CUSTOMER_PHONE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CUSTOMER_ROLE drop foreign key FK548EB7B17470F437
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CUSTOMER_ROLE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CUSTOMER_ROLE drop foreign key FK548EB7B1B8587B7
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CUSTOMER_ROLE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_CUST_SITE_MAP_GEN_CFG drop foreign key FK67C0DBA0BCAB9F56
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_CUST_SITE_MAP_GEN_CFG' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_DATA_DRVN_ENUM_VAL drop foreign key FKB2D5700DA60E0554
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_DATA_DRVN_ENUM_VAL' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_DISCRETE_ORDER_ITEM drop foreign key FKBC3A8A845CDFCA80
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_DISCRETE_ORDER_ITEM' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_DISCRETE_ORDER_ITEM drop foreign key FKBC3A8A845F11A0B7
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_DISCRETE_ORDER_ITEM' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_DISCRETE_ORDER_ITEM drop foreign key FKBC3A8A84B78C9977
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_DISCRETE_ORDER_ITEM' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_DISCRETE_ORDER_ITEM drop foreign key FKBC3A8A841285903B
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_DISCRETE_ORDER_ITEM' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_DISCRETE_ORDER_ITEM drop foreign key FKBC3A8A849AF166DF
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_DISCRETE_ORDER_ITEM' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_DISC_ITEM_FEE_PRICE drop foreign key FK2A641CC8B76B9466
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_DISC_ITEM_FEE_PRICE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_DYN_DISCRETE_ORDER_ITEM drop foreign key FK209DEE9EB76B9466
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_DYN_DISCRETE_ORDER_ITEM' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_EMAIL_TRACKING_CLICKS drop foreign key FKFDF9F52AFA1E5D61
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_EMAIL_TRACKING_CLICKS' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_EMAIL_TRACKING_OPENS drop foreign key FKA5C3722AFA1E5D61
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_EMAIL_TRACKING_OPENS' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FG_ADJUSTMENT drop foreign key FK468C8F255028DC55
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FG_ADJUSTMENT' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FG_ADJUSTMENT drop foreign key FK468C8F25D5F3FAF4
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FG_ADJUSTMENT' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FG_FEE_TAX_XREF drop foreign key FK25426DC071448C19
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FG_FEE_TAX_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FG_FEE_TAX_XREF drop foreign key FK25426DC0598F6D02
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FG_FEE_TAX_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FG_FG_TAX_XREF drop foreign key FK61BEA45571448C19
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FG_FG_TAX_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FG_FG_TAX_XREF drop foreign key FK61BEA4555028DC55
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FG_FG_TAX_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FG_ITEM_TAX_XREF drop foreign key FKDD3E844371448C19
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FG_ITEM_TAX_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FG_ITEM_TAX_XREF drop foreign key FKDD3E8443E3BBB4D2
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FG_ITEM_TAX_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FIELD_SEARCH_TYPES drop foreign key FKF52D130D3C3907C4
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FIELD_SEARCH_TYPES' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FLD_DEF drop foreign key FK3FCB575E38D08AB5
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FLD_DEF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FLD_DEF drop foreign key FK3FCB575E6A79BDB5
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FLD_DEF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FLD_ENUM_ITEM drop foreign key FK83A6A84AFD2EA299
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FLD_ENUM_ITEM' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FULFILLMENT_GROUP drop foreign key FKC5B9EF18C13085DD
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FULFILLMENT_GROUP' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FULFILLMENT_GROUP drop foreign key FKC5B9EF1881F34C7F
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FULFILLMENT_GROUP' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FULFILLMENT_GROUP drop foreign key FKC5B9EF1889FE8A02
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FULFILLMENT_GROUP' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FULFILLMENT_GROUP drop foreign key FKC5B9EF1877F565E1
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FULFILLMENT_GROUP' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FULFILLMENT_GROUP drop foreign key FKC5B9EF18D894CB5D
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FULFILLMENT_GROUP' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FULFILLMENT_GROUP_FEE drop foreign key FK6AA8E1BF5028DC55
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FULFILLMENT_GROUP_FEE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FULFILLMENT_GROUP_ITEM drop foreign key FKEA74EBDA5028DC55
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FULFILLMENT_GROUP_ITEM' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FULFILLMENT_GROUP_ITEM drop foreign key FKEA74EBDA9AF166DF
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FULFILLMENT_GROUP_ITEM' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FULFILLMENT_OPTION_FIXED drop foreign key FK408360313E2FC4F9
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FULFILLMENT_OPTION_FIXED' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FULFILLMENT_OPTION_FIXED drop foreign key FK4083603181F34C7F
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FULFILLMENT_OPTION_FIXED' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FULFILLMENT_OPT_BANDED_PRC drop foreign key FKB1FD71E981F34C7F
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FULFILLMENT_OPT_BANDED_PRC' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FULFILLMENT_OPT_BANDED_WGT drop foreign key FKB1FD8AEC81F34C7F
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FULFILLMENT_OPT_BANDED_WGT' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FULFILLMENT_PRICE_BAND drop foreign key FK46C9EA726CDF59CA
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FULFILLMENT_PRICE_BAND' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_FULFILLMENT_WEIGHT_BAND drop foreign key FK6A048D95A0B429C3
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_FULFILLMENT_WEIGHT_BAND' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_GIFTWRAP_ORDER_ITEM drop foreign key FKE1BE1563B76B9466
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_GIFTWRAP_ORDER_ITEM' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_IMG_STATIC_ASSET drop foreign key FKCC4B772167F70B63
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_IMG_STATIC_ASSET' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ITEM_OFFER_QUALIFIER drop foreign key FKD9C50C61D5F3FAF4
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ITEM_OFFER_QUALIFIER' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ITEM_OFFER_QUALIFIER drop foreign key FKD9C50C619AF166DF
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ITEM_OFFER_QUALIFIER' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_LOCALE drop foreign key FK56C7DC203E2FC4F9
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_LOCALE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_OFFER_CODE drop foreign key FK76B8C8D6D5F3FAF4
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_OFFER_CODE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_OFFER_INFO_FIELDS drop foreign key FKA901886183AE7237
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_OFFER_INFO_FIELDS' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_OFFER_RULE_MAP drop foreign key FKCA468FE2C11A218D
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_OFFER_RULE_MAP' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_OFFER_RULE_MAP drop foreign key FKCA468FE245C66D1D
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_OFFER_RULE_MAP' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER drop foreign key FK8F5B64A83E2FC4F9
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER drop foreign key FK8F5B64A87470F437
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER drop foreign key FK8F5B64A8A1E1C128
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER_ADJUSTMENT drop foreign key FK1E92D164D5F3FAF4
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER_ADJUSTMENT' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER_ADJUSTMENT drop foreign key FK1E92D16489FE8A02
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER_ADJUSTMENT' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER_ATTRIBUTE drop foreign key FKB3A467A589FE8A02
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER_ATTRIBUTE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER_ITEM drop foreign key FK9A2E704A15D1A13D
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER_ITEM' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER_ITEM drop foreign key FK9A2E704AFD2F1F10
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER_ITEM' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER_ITEM drop foreign key FK9A2E704A89FE8A02
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER_ITEM' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER_ITEM drop foreign key FK9A2E704AB0B0D00A
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER_ITEM' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER_ITEM drop foreign key FK9A2E704A77F565E1
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER_ITEM' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER_ITEM_ADD_ATTR drop foreign key FKA466AB44B76B9466
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER_ITEM_ADD_ATTR' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER_ITEM_ADJUSTMENT drop foreign key FKA2658C82D5F3FAF4
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER_ITEM_ADJUSTMENT' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER_ITEM_ADJUSTMENT drop foreign key FKA2658C829AF166DF
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER_ITEM_ADJUSTMENT' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER_ITEM_ATTRIBUTE drop foreign key FK9F1ED0C79AF166DF
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER_ITEM_ATTRIBUTE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER_ITEM_DTL_ADJ drop foreign key FK85F0248FD5F3FAF4
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER_ITEM_DTL_ADJ' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER_ITEM_DTL_ADJ drop foreign key FK85F0248FD4AEA2C0
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER_ITEM_DTL_ADJ' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER_ITEM_PRICE_DTL drop foreign key FK1FB64BF19AF166DF
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER_ITEM_PRICE_DTL' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER_MULTISHIP_OPTION drop foreign key FKB3D3F7D6C13085DD
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER_MULTISHIP_OPTION' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER_MULTISHIP_OPTION drop foreign key FKB3D3F7D681F34C7F
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER_MULTISHIP_OPTION' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER_MULTISHIP_OPTION drop foreign key FKB3D3F7D689FE8A02
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER_MULTISHIP_OPTION' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER_MULTISHIP_OPTION drop foreign key FKB3D3F7D69AF166DF
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER_MULTISHIP_OPTION' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER_OFFER_CODE_XREF drop foreign key FKFDF0E8533BB10F6D
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER_OFFER_CODE_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER_OFFER_CODE_XREF drop foreign key FKFDF0E85389FE8A02
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER_OFFER_CODE_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER_PAYMENT drop foreign key FK9517A14FC13085DD
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER_PAYMENT' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER_PAYMENT drop foreign key FK9517A14F89FE8A02
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER_PAYMENT' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER_PAYMENT_TRANSACTION drop foreign key FK86FDE7CE6A69DD9D
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER_PAYMENT_TRANSACTION' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_ORDER_PAYMENT_TRANSACTION drop foreign key FK86FDE7CEE1B66C71
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_ORDER_PAYMENT_TRANSACTION' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PAGE drop foreign key FKF41BEDD5D49D3961
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PAGE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PAGE_FLD_MAP drop foreign key FKE9EE09515AEDD08A
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PAGE_FLD_MAP' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PAGE_FLD_MAP drop foreign key FKE9EE0951883C2667
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PAGE_FLD_MAP' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PAGE_RULE_MAP drop foreign key FK1ABA0CA336D91846
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PAGE_RULE_MAP' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PAGE_RULE_MAP drop foreign key FK1ABA0CA3C38455DD
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PAGE_RULE_MAP' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PAGE_TMPLT drop foreign key FK325C9D5A1E1C128
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PAGE_TMPLT' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PAYMENT_LOG drop foreign key FKA43703453E2FC4F9
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PAYMENT_LOG' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PAYMENT_LOG drop foreign key FKA43703457470F437
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PAYMENT_LOG' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PGTMPLT_FLDGRP_XREF drop foreign key FK99D625F66A79BDB5
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PGTMPLT_FLDGRP_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PGTMPLT_FLDGRP_XREF drop foreign key FK99D625F6D49D3961
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PGTMPLT_FLDGRP_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PRODUCT drop foreign key FK5B95B7C9DF057C3F
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PRODUCT' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PRODUCT drop foreign key FK5B95B7C96D386535
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PRODUCT' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PRODUCT_ATTRIBUTE drop foreign key FK56CE05865F11A0B7
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PRODUCT_ATTRIBUTE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PRODUCT_BUNDLE drop foreign key FK8CC5B85F11A0B7
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PRODUCT_BUNDLE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PRODUCT_CROSS_SALE drop foreign key FK8324FB3C15D1A13D
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PRODUCT_CROSS_SALE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PRODUCT_CROSS_SALE drop foreign key FK8324FB3C5F11A0B7
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PRODUCT_CROSS_SALE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PRODUCT_CROSS_SALE drop foreign key FK8324FB3C62D84F9B
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PRODUCT_CROSS_SALE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PRODUCT_FEATURED drop foreign key FK4C49FFE415D1A13D
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PRODUCT_FEATURED' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PRODUCT_FEATURED drop foreign key FK4C49FFE45F11A0B7
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PRODUCT_FEATURED' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PRODUCT_OPTION_VALUE drop foreign key FK6DEEEDBD92EA8136
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PRODUCT_OPTION_VALUE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PRODUCT_OPTION_XREF drop foreign key FKDA42AB2F5F11A0B7
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PRODUCT_OPTION_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PRODUCT_OPTION_XREF drop foreign key FKDA42AB2F92EA8136
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PRODUCT_OPTION_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PRODUCT_SKU_XREF drop foreign key FKF2DBF6D35F11A0B7
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PRODUCT_SKU_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PRODUCT_SKU_XREF drop foreign key FKF2DBF6D3B78C9977
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PRODUCT_SKU_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PRODUCT_UP_SALE drop foreign key FKF69054F515D1A13D
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PRODUCT_UP_SALE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PRODUCT_UP_SALE drop foreign key FKF69054F55F11A0B7
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PRODUCT_UP_SALE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_PRODUCT_UP_SALE drop foreign key FKF69054F562D84F9B
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_PRODUCT_UP_SALE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_QUAL_CRIT_OFFER_XREF drop foreign key FKD592E919D5F3FAF4
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_QUAL_CRIT_OFFER_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_QUAL_CRIT_OFFER_XREF drop foreign key FKD592E9193615A91A
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_QUAL_CRIT_OFFER_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_QUAL_CRIT_PAGE_XREF drop foreign key FK874BE590883C2667
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_QUAL_CRIT_PAGE_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_QUAL_CRIT_PAGE_XREF drop foreign key FK874BE590378418CD
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_QUAL_CRIT_PAGE_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_QUAL_CRIT_SC_XREF drop foreign key FKC4A353AF13D95585
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_QUAL_CRIT_SC_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_QUAL_CRIT_SC_XREF drop foreign key FKC4A353AF85C77F2B
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_QUAL_CRIT_SC_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_RATING_DETAIL drop foreign key FKC9D04AD7470F437
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_RATING_DETAIL' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_RATING_DETAIL drop foreign key FKC9D04ADD4E76BF4
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_RATING_DETAIL' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_REVIEW_DETAIL drop foreign key FK9CD7E6927470F437
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_REVIEW_DETAIL' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_REVIEW_DETAIL drop foreign key FK9CD7E69245DC39E0
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_REVIEW_DETAIL' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_REVIEW_DETAIL drop foreign key FK9CD7E692D4E76BF4
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_REVIEW_DETAIL' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_REVIEW_FEEDBACK drop foreign key FK7CC929867470F437
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_REVIEW_FEEDBACK' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_REVIEW_FEEDBACK drop foreign key FK7CC92986AE4769D6
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_REVIEW_FEEDBACK' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SANDBOX drop foreign key FKDD37A9A174160452
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SANDBOX' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SANDBOX_MGMT drop foreign key FK4845009F579FE59D
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SANDBOX_MGMT' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SC drop foreign key FK74EEB716A1E1C128
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SC' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SC drop foreign key FK74EEB71671EBFA46
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SC' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SC_FLDGRP_XREF drop foreign key FK71612AEA6A79BDB5
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SC_FLDGRP_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SC_FLDGRP_XREF drop foreign key FK71612AEAF6B0BA84
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SC_FLDGRP_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SC_FLD_MAP drop foreign key FKD9480192DD6FD28A
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SC_FLD_MAP' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SC_FLD_MAP drop foreign key FKD948019213D95585
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SC_FLD_MAP' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SC_RULE_MAP drop foreign key FK169F1C8256E51A06
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SC_RULE_MAP' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SC_RULE_MAP drop foreign key FK169F1C82156E72FC
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SC_RULE_MAP' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SC_TYPE drop foreign key FKE19886C3F6B0BA84
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SC_TYPE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SEARCH_FACET drop foreign key FK4FFCC9863C3907C4
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SEARCH_FACET' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SEARCH_FACET_RANGE drop foreign key FK7EC3B124B96B1C93
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SEARCH_FACET_RANGE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SEARCH_FACET_XREF drop foreign key FK35A63034DA7E1C7C
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SEARCH_FACET_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SEARCH_FACET_XREF drop foreign key FK35A63034B96B1C93
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SEARCH_FACET_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SITE_CATALOG drop foreign key FK5F3F2047843A8B63
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SITE_CATALOG' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SITE_CATALOG drop foreign key FK5F3F2047A350C7F1
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SITE_CATALOG' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SITE_MAP_CFG drop foreign key FK7012930FC50D449
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SITE_MAP_CFG' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SITE_MAP_GEN_CFG drop foreign key FK1D76000A340ED71
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SITE_MAP_GEN_CFG' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SITE_MAP_URL_ENTRY drop foreign key FKE2004FED36AFE1EE
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SITE_MAP_URL_ENTRY' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SKU drop foreign key FK28E82CF73E2FC4F9
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SKU' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SKU drop foreign key FK28E82CF77E555D75
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SKU' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SKU_ATTRIBUTE drop foreign key FK6C6A5934B78C9977
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SKU_ATTRIBUTE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SKU_BUNDLE_ITEM drop foreign key FKD55968CCF29B96
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SKU_BUNDLE_ITEM' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SKU_BUNDLE_ITEM drop foreign key FKD55968B78C9977
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SKU_BUNDLE_ITEM' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SKU_FEE drop foreign key FKEEB7181E3E2FC4F9
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SKU_FEE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SKU_FEE_XREF drop foreign key FKD88D409CB78C9977
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SKU_FEE_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SKU_FEE_XREF drop foreign key FKD88D409CCF4C9A82
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SKU_FEE_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SKU_FULFILLMENT_EXCLUDED drop foreign key FK84162D7381F34C7F
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SKU_FULFILLMENT_EXCLUDED' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SKU_FULFILLMENT_EXCLUDED drop foreign key FK84162D73B78C9977
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SKU_FULFILLMENT_EXCLUDED' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SKU_FULFILLMENT_FLAT_RATES drop foreign key FKC1988C9681F34C7F
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SKU_FULFILLMENT_FLAT_RATES' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SKU_FULFILLMENT_FLAT_RATES drop foreign key FKC1988C96B78C9977
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SKU_FULFILLMENT_FLAT_RATES' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SKU_MEDIA_MAP drop foreign key FKEB4AECF96E4720E0
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SKU_MEDIA_MAP' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SKU_MEDIA_MAP drop foreign key FKEB4AECF9D93D857F
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SKU_MEDIA_MAP' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SKU_OPTION_VALUE_XREF drop foreign key FK7B61DC0BB0C16A73
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SKU_OPTION_VALUE_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_SKU_OPTION_VALUE_XREF drop foreign key FK7B61DC0BB78C9977
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_SKU_OPTION_VALUE_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_STATE drop foreign key FK8F94A1EBA46E16CF
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_STATE' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_TAR_CRIT_OFFER_XREF drop foreign key FK125F58033615A91A
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_TAR_CRIT_OFFER_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_TAR_CRIT_OFFER_XREF drop foreign key FK125F5803D5F3FAF4
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_TAR_CRIT_OFFER_XREF' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_TAX_DETAIL drop foreign key FKEABE4A4B3E2FC4F9
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_TAX_DETAIL' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_TAX_DETAIL drop foreign key FKEABE4A4BC50D449
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_TAX_DETAIL' doesn't exist
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - HHH000389: Unsuccessful: alter table BLC_TRANS_ADDITNL_FIELDS drop foreign key FK376DDE4B9E955B1D
+[artifact:mvn] [ERROR] 19:15:25 SchemaExport - Table 'broadleaf.BLC_TRANS_ADDITNL_FIELDS' doesn't exist
+[artifact:mvn] [ERROR] 19:15:28 SchemaExport - HHH000231: Schema export unsuccessful
+[artifact:mvn] org.hibernate.tool.hbm2ddl.ImportScriptException: Error during statement execution (file: '/sql/load_catalog_i18n_data_ES.sql'): INSERT INTO BLC_TRANSLATION (TRANSLATION_ID, ENTITY_ID, LOCALE_CODE, ENTITY_TYPE, FIELD_NAME,  TRANSLATED_VALUE) VALUES (-56, 3, 'es', 'Sku', 'longDescription', 'Picante, maduro pimienta que se mezcla junto con el ajo, la cebolla, pasta de tomate y una pizca de az&uacute;car de ca&ntilde;a para hacer de esto una salsa suave. Maravilloso en huevos, aves de corral, carne de cerdo o pescado, esta salsa se ​​mezcla para hacer los adobos y sopas ricas.')
+[artifact:mvn] 	at org.hibernate.tool.hbm2ddl.SchemaExport.importScript(SchemaExport.java:451)
+[artifact:mvn] 	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:378)
+[artifact:mvn] 	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:304)
+[artifact:mvn] 	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:293)
+[artifact:mvn] 	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:498)
+[artifact:mvn] 	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1742)
+[artifact:mvn] 	at org.hibernate.ejb.EntityManagerFactoryImpl.<init>(EntityManagerFactoryImpl.java:94)
+[artifact:mvn] 	at org.hibernate.ejb.Ejb3Configuration.buildEntityManagerFactory(Ejb3Configuration.java:905)
+[artifact:mvn] 	at org.hibernate.ejb.Ejb3Configuration.buildEntityManagerFactory(Ejb3Configuration.java:890)
+[artifact:mvn] 	at org.hibernate.ejb.HibernatePersistence.createContainerEntityManagerFactory(HibernatePersistence.java:74)
+[artifact:mvn] 	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:290)
+[artifact:mvn] 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:310)
+[artifact:mvn] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1573)
+[artifact:mvn] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1511)
+[artifact:mvn] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+[artifact:mvn] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+[artifact:mvn] 	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+[artifact:mvn] 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+[artifact:mvn] 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+[artifact:mvn] 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:191)
+[artifact:mvn] 	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1119)
+[artifact:mvn] 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:924)
+[artifact:mvn] 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+[artifact:mvn] 	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+[artifact:mvn] 	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+[artifact:mvn] 	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+[artifact:mvn] 	at org.broadleafcommerce.common.web.extensibility.MergeContextLoaderListener.contextInitialized(MergeContextLoaderListener.java:50)
+[artifact:mvn] 	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:766)
+[artifact:mvn] 	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:406)
+[artifact:mvn] 	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:758)
+[artifact:mvn] 	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:242)
+[artifact:mvn] 	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1233)
+[artifact:mvn] 	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:701)
+[artifact:mvn] 	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:475)
+[artifact:mvn] 	at org.mortbay.jetty.plugin.JettyWebAppContext.doStart(JettyWebAppContext.java:256)
+[artifact:mvn] 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+[artifact:mvn] 	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:224)
+[artifact:mvn] 	at org.eclipse.jetty.server.handler.ContextHandlerCollection.doStart(ContextHandlerCollection.java:167)
+[artifact:mvn] 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+[artifact:mvn] 	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:224)
+[artifact:mvn] 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+[artifact:mvn] 	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:90)
+[artifact:mvn] 	at org.eclipse.jetty.server.Server.doStart(Server.java:272)
+[artifact:mvn] 	at org.mortbay.jetty.plugin.JettyServer.doStart(JettyServer.java:65)
+[artifact:mvn] 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+[artifact:mvn] 	at org.mortbay.jetty.plugin.AbstractJettyMojo.startJetty(AbstractJettyMojo.java:511)
+[artifact:mvn] 	at org.mortbay.jetty.plugin.AbstractJettyMojo.execute(AbstractJettyMojo.java:364)
+[artifact:mvn] 	at org.mortbay.jetty.plugin.JettyRunMojo.execute(JettyRunMojo.java:516)
+[artifact:mvn] 	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:101)
+[artifact:mvn] 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:209)
+[artifact:mvn] 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+[artifact:mvn] 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+[artifact:mvn] 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:84)
+[artifact:mvn] 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:59)
+[artifact:mvn] 	at org.apache.maven.lifecycle.internal.LifecycleStarter.singleThreadedBuild(LifecycleStarter.java:183)
+[artifact:mvn] 	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:161)
+[artifact:mvn] 	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:320)
+[artifact:mvn] 	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:156)
+[artifact:mvn] 	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:537)
+[artifact:mvn] 	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:196)
+[artifact:mvn] 	at org.apache.maven.cli.MavenCli.main(MavenCli.java:141)
+[artifact:mvn] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[artifact:mvn] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+[artifact:mvn] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[artifact:mvn] 	at java.lang.reflect.Method.invoke(Method.java:606)
+[artifact:mvn] 	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+[artifact:mvn] 	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+[artifact:mvn] 	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+[artifact:mvn] 	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+[artifact:mvn] 	at org.codehaus.classworlds.Launcher.main(Launcher.java:46)
+[artifact:mvn] Caused by: java.sql.SQLException: Incorrect string value: '\xE2\x80\x8B\xE2\x80\x8B...' for column 'TRANSLATED_VALUE' at row 1
+[artifact:mvn] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1078)
+[artifact:mvn] 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4190)
+[artifact:mvn] 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4122)
+[artifact:mvn] 	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2570)
+[artifact:mvn] 	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2731)
+[artifact:mvn] 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2812)
+[artifact:mvn] 	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1811)
+[artifact:mvn] 	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1725)
+[artifact:mvn] 	at org.apache.commons.dbcp.DelegatingStatement.executeUpdate(DelegatingStatement.java:228)
+[artifact:mvn] 	at org.apache.commons.dbcp.DelegatingStatement.executeUpdate(DelegatingStatement.java:228)
+[artifact:mvn] 	at org.hibernate.tool.hbm2ddl.DatabaseExporter.export(DatabaseExporter.java:64)
+[artifact:mvn] 	at org.hibernate.tool.hbm2ddl.SchemaExport.importScript(SchemaExport.java:446)
+[artifact:mvn] 	... 69 more
+[artifact:mvn] [ WARN] 19:15:45 SolrCore - [primary] Solr index directory '/tmp/vagrant/solrhome/core0dir/data/index' doesn't exist. Creating new index...
+[artifact:mvn] [ WARN] 19:15:45 SolrCore - [reindex] Solr index directory '/tmp/vagrant/solrhome/core1dir/data/index' doesn't exist. Creating new index...
+[artifact:mvn] 2015-03-26 19:15:50.617:INFO:oejsh.ContextHandler:started o.m.j.p.JettyWebAppContext{/,file:/vagrant/eclipse-workspace/DemoSite/site/target/mycompany/},file:/vagrant/eclipse-workspace/DemoSite/site/target/mycompany/
+[artifact:mvn] 2015-03-26 19:15:51.103:INFO:/:Initializing Spring FrameworkServlet 'mycompany'
+[artifact:mvn] 2015-03-26 19:15:59.900:INFO:oejs.AbstractConnector:Started SelectChannelConnector@0.0.0.0:8080
+[artifact:mvn] 2015-03-26 19:16:00.366:INFO:oejus.SslContextFactory:Enabled Protocols [SSLv2Hello, TLSv1, TLSv1.1, TLSv1.2] of [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
+[artifact:mvn] [INFO] Started Jetty Server
+[artifact:mvn] 2015-03-26 19:16:00.394:INFO:oejs.AbstractConnector:Started SslSelectChannelConnector@0.0.0.0:8443

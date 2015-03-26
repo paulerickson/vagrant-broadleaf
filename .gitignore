@@ -1,4 +1,6 @@
 .project
 .vagrant
 DemoSite-*-eclipse-workspace.zip
-eclipse-workspace
+*.swp
+*.iml
+.idea/

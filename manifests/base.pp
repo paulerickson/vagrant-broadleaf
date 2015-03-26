@@ -1,5 +1,7 @@
 $DemoSite_version = "3.1.12-GA"
 
+include database
+
 Exec {
   path => [ "/usr/local/sbin", "/usr/local/bin", "/usr/sbin", "/usr/bin", "/sbin", "/bin" ],
 }
@@ -83,14 +85,21 @@ service { 'broadleaf-demo':
   ensure => running,
   enable => true,
   hasstatus => false,
-  require => [File['/etc/init.d/broadleaf-demo'], Package['maven'], Exec['mvn install']]
+  require => [Class['database'], File['/etc/init.d/broadleaf-demo'], Package['maven'], Exec['mvn install']]
 }
 service { 'broadleaf-demo-admin':
   ensure => running,
   enable => true,
   hasstatus => false,
-  require => [File['/etc/init.d/broadleaf-demo-admin'], Package['maven'], Exec['mvn install'], Service['broadleaf-demo']]
+  require => [Class['database'], File['/etc/init.d/broadleaf-demo-admin'], Package['maven'], Exec['mvn install'], Service['broadleaf-demo']]
 }
+
+##TODO: I'm shortcutting the maven repo download, but this file shouldn't be committed to git
+#exec { 'extract repo':
+#  command => "tar -xzvf /vagrant/m2.tar.gz -C /",
+#  creates => "/home/vagrant/.m2",
+#  before => Exec['mvn install']
+#}
 
 #TODO: consider setting up jetty or tomcat as a service
 #package { 'jetty8':
